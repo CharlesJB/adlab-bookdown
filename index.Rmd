@@ -1,0 +1,12 @@
+---
+title: "Template livrables"
+author: "Charles Joly Beauparlant"
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+# Hello World
+
+Hi.
+
+Bye.

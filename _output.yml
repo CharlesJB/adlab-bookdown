@@ -1,0 +1,14 @@
+bookdown::gitbook:
+  self_contained: TRUE
+  split_by: "none"
+  config:
+    toc:
+      before: |
+        <li><center><img src="./logo.png" style="width:200px;height:200px;</img></center></li>
+      after: |
+        <li><a href="http://compbio.ulaval.ca/" target="blank">Published with bookdown</a></li>
+    download: ["pdf"]
+bookdown::pdf_book:
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
